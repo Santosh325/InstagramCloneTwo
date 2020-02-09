@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        android:layout_margin="40dp"
+        android:src="@drawable/instagram" />
+
+    <EditText
+        android:layout_marginBottom="14dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="16dp"
+        android:background="@drawable/rounded_button"
+        android:textColorHint="#807c74"
+        />
+    <EditText
+        android:layout_marginBottom="14dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:background="@drawable/rounded_button"
+        android:textColorHint="#807c74"
+        />
+    <Button
+        android:textColor="#ffffff"
+        android:text="Log In"
+        android:padding="16dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button2"
+        />
+    <TextView
+        android:text="Forgot your login details? Get help signing in."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="Log in as @santoshthapa10"
+        android:padding="16dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button2"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textAllCaps="false"
+        android:text="Don't have an account? Sign up."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="360dp"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="Instagram from Facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
